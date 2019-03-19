@@ -1,0 +1,26 @@
+.holder {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	justify-items: center;
+}
+.footer {
+	width: 100%;
+	background-color: rgb(0,0,0,0.5);
+}
+.link {
+	padding: 25px;
+	font-family: Cabin,Helvetica Neue,Helvetica,Arial,sans-serif;
+	color: whitesmoke;
+	letter-spacing: 2px;
+}
+.link:link {
+	text-decoration: inherit;
+	cursor: auto;
+	color: whitesmoke;
+}
+
+.link:visited {
+	text-decoration: inherit;
+	cursor: auto;
+}

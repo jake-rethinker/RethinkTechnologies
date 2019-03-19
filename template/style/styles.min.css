@@ -1,0 +1,122 @@
+.accordian li,.accordian li img{
+display:block
+}*{
+margin:0;
+padding:0
+}
+.accordian{
+width:805px;
+height:320px;
+overflow:hidden;
+margin:100px auto;
+box-shadow:0 0 10px 1px rgba(0,0,0,.35);
+-webkit-box-shadow:0 0 10px 1px rgba(0,0,0,.35);
+-moz-box-shadow:0 0 10px 1px rgba(0,0,0,.35)
+}
+.accordian ul{
+width:1200px
+}
+.accordian li{
+position:relative;
+width:160px;
+float:left;
+border-left:1px solid #888;
+box-shadow:0 0 25px 10px rgba(0,0,0,.5);
+-webkit-box-shadow:0 0 25px 10px rgba(0,0,0,.5);
+-moz-box-shadow:0 0 25px 10px rgba(0,0,0,.5);
+transition:all .5s;
+-webkit-transition:all .5s;
+-moz-transition:all .5s
+}
+.accordian ul:hover li{
+width:40px
+}
+.accordian ul li:hover{
+width:640px
+}
+.image_title{
+background:rgba(0,0,0,.4);
+position:absolute;
+left:0;
+bottom:0;
+width:640px;
+height:60px
+}@media (max-width:767px){
+.contact-clean{
+padding:20px 0
+}
+}
+.contact-clean{
+background:#333;
+padding:80px 0
+}
+.contact-clean form{
+max-width:480px;
+width:90%;
+margin:0 auto;
+background-color:#fff;
+padding:40px;
+border-radius:4px;
+color:#505e6c;
+box-shadow:1px 1px 5px rgba(0,0,0,.1)
+}@media (max-width:767px){
+.contact-clean form{
+padding:30px
+}
+}
+.contact-clean h2{
+margin-top:5px;
+font-weight:700;
+font-size:28px;
+margin-bottom:36px;
+color:inherit
+}
+.contact-clean .form-group:last-child{
+margin-bottom:5px
+}
+.contact-clean form .form-control{
+background:#fff;
+border-radius:2px;
+box-shadow:1px 1px 1px rgba(0,0,0,.05);
+outline:0;
+color:inherit;
+padding-left:12px;
+height:42px
+}
+.contact-clean form .form-control:focus{
+border:1px solid #b2b2b2
+}
+.contact-clean form textarea.form-control{
+min-height:100px;
+max-height:260px;
+padding-top:10px;
+resize:vertical
+}
+.contact-clean form .btn{
+padding:16px 32px;
+border:none;
+background:0 0;
+box-shadow:none;
+text-shadow:none;
+opacity:.9;
+text-transform:uppercase;
+font-weight:700;
+font-size:13px;
+letter-spacing:.4px;
+line-height:1;
+outline:0!important
+}
+.contact-clean form .btn:hover{
+opacity:1
+}
+.contact-clean form .btn:active{
+transform:translateY(1px)
+}
+.contact-clean form .btn-primary{
+background-color:#055ada!important;
+margin-top:15px;
+color:#fff
+}
+.btn-primary{
+border-radius:.25em
+}

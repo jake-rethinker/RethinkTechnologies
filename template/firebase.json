@@ -1,0 +1,15 @@
+{
+  "hosting": {
+    "public": "build",
+    "rewrites": [
+      {
+        "source": "**/!(*.js|*.html|*.css|*.json|*.svg|*.png|*.jpg|*.jpeg)",
+        "destination": "template.html"
+      } ],
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

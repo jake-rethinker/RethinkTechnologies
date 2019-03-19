@@ -1,0 +1,16 @@
+.home {
+	min-height: 100%;
+	width: 100%;
+}
+.backgroundimage {
+	background: url("../../assets/downloads-bg.jpg") no-repeat;
+	background-size: cover;
+}
+.elpipe {
+	background: rgba(0, 0, 0, 0.4);
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 456px;
+	height: 60px;
+}

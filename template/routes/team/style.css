@@ -1,0 +1,8 @@
+.home {
+	min-height: 100%;
+	width: 100%;
+}
+.backgroundimage {
+	background-image:url('../../assets/intro-bg.jpg');
+	background-size: cover;
+}
